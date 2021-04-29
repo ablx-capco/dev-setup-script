@@ -18,6 +18,8 @@ Script will install the tools / dependencies specified below:
 * VAGRANT
 * NGINX
 
+Note: xcode-command-line tools must be installed for homebrew installation
+
 The script can be ran with 
 ```
 chmod +x dev-setup.sh

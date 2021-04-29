@@ -17,6 +17,7 @@ Script will install the following tools / dependencies
 * Google Cloud SDK
 * Kubernetes CLI
 * Terraform CLI
+* Packer
 
 ## Text editing tools
 * Sublime text
@@ -24,7 +25,7 @@ Script will install the following tools / dependencies
 
 ## Misc tools
 * GPG Suite
-* Packer
+
 * VirtualBox
 * Vagrant
 * Nginx

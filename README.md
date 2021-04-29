@@ -1,6 +1,6 @@
 # Capco developer setup script
 
-Script will set up all the tools / dependencies specified below:
+Script will install the tools / dependencies specified below:
 * CGP SUITE
 * OPENJDK 11
 * VS CODE

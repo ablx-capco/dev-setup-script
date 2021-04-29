@@ -1,4 +1,4 @@
-# Capco developer setup script
+# Developer setup script
 
 Script will install the following tools / dependencies
 

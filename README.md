@@ -25,3 +25,4 @@ The script can be ran with
 chmod +x dev-setup.sh
 ./dev-setup.sh
 ```
+The script may have to be re-run after permissions are granted for various applications

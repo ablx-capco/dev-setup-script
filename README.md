@@ -34,7 +34,6 @@ chmod +x dev-setup.sh
 ./dev-setup.sh
 ```
 If you wish to not install a tool then just comment the line with #
-e.g.
 ```
 # brew install kubectl #K8S command line interface
 ```

@@ -32,6 +32,8 @@ The script can be ran with
 chmod +x dev-setup.sh
 ./dev-setup.sh
 ```
+
+## Setup Issues
 The script may have to be re-run after permissions are granted for various applications such as virtualbox
 
 If script fails at virtualbox install allow the software in the security and privacy settings:

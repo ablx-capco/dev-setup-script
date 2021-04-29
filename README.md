@@ -33,6 +33,11 @@ The script can be ran with
 chmod +x dev-setup.sh
 ./dev-setup.sh
 ```
+If you wish to not install a tool then just comment the line with #
+e.g.
+```
+# brew install kubectl #K8S command line interface
+```
 
 ## Setup Issues
 The script may have to be re-run after permissions are granted for various applications such as virtualbox

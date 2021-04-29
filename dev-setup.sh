@@ -20,22 +20,24 @@ brew update
 
 brew install git
 brew install --cask gpg-suite #needed to sign github commits
-brew install --cask sublime-text
-brew tap AdoptOpenJDK/openjdk
-brew install --cask adoptopenjdk11 #needed for JVM languages
-brew install --cask visual-studio-code #general language IDE
-brew install --cask intellij-idea-ce #JVM based IDE
-brew install gradle #build automation tool 
-brew install maven #build automation tool
-brew install node #javascript runtime
-brew install --cask docker #containerisation tool
-brew install python@3.9 #scripting language - v2 included with mac however v3 reccomended
-brew install --cask google-cloud-sdk #google cloud sdk
-brew install kubectl #K8S command line interface
+brew tap AdoptOpenJDK/openjdk #adding source for jdk
+brew install --cask adoptopenjdk11 # needed for JVM languages
+brew install --cask visual-studio-code # general language IDE
+brew install --cask intellij-idea-ce # JVM based IDE
+brew install gradle # build automation tool 
+brew install maven # build automation tool
+brew install node # javascript runtime
+brew install --cask docker # containerisation tool
+brew install python@3.9 # scripting language - v2 included with mac however v3 reccomended
+brew install --cask google-cloud-sdk # google cloud sdk
+brew install kubectl # K8S command line interface
 brew install hashicorp/tap/terraform # terraform for infrastructure provisioning
 brew install hashicorp/tap/packer # packer for building VM images
-brew install nginx #HTTP server + reverse proxy
-brew install --cask virtualbox #hypervisor for virtualization prerequisite for vagrant
-brew install --cask vagrant #management of VMs
+brew install nginx # HTTP server + reverse proxy
+brew install --cask virtualbox # hypervisor for virtualization prerequisite for vagrant
+brew install --cask vagrant # management of VMs
+
+brew install --cask sublime-text # text editing tool
+brew install --cask atom # alternative text editing tool
 
 brew cleanup

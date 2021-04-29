@@ -1,6 +1,6 @@
 # Capco developer setup script
 
-Script will install the tools / dependencies specified below
+Script will install the following tools / dependencies
 
 ## IDE / Development Tools
 * Vs Code

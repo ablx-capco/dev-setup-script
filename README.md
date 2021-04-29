@@ -25,4 +25,8 @@ The script can be ran with
 chmod +x dev-setup.sh
 ./dev-setup.sh
 ```
-The script may have to be re-run after permissions are granted for various applications
+The script may have to be re-run after permissions are granted for various applications such as virtualbox
+
+If script fails at virtualbox install allow the software in the security and privacy settings:
+
+![image](https://user-images.githubusercontent.com/82884237/116546074-1817ee80-a8e9-11eb-9b74-96aeb82a737c.png)

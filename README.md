@@ -1,7 +1,7 @@
 # Capco developer setup script
 
 Script will set up all the tools / dependencies specified below:
-CGP SUITE
+* CGP SUITE
 OPENJDK 11
 VS CODE
 INTELLIJ IDEA COMMUNITY EDITION

@@ -17,6 +17,10 @@ Script will install the following tools / dependencies
 * Kubernetes CLI
 * Terraform CLI
 
+## Text editing tools
+Sublime text
+Atom
+
 ## Misc tools
 * GPG Suite
 * Packer

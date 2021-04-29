@@ -20,5 +20,6 @@ Script will install the tools / dependencies specified below:
 
 The script can be ran with 
 ```
+chmod +x dev-setup.sh
 ./dev-setup.sh
 ```

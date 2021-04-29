@@ -3,6 +3,7 @@
 Script will install the following tools / dependencies
 
 ## IDE / Development Tools
+* Git
 * Vs Code
 * IntelliJ Idea Community Edition
 * OpenJdk11 

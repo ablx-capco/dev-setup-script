@@ -18,7 +18,9 @@ fi
 # Make sure we’re using the latest Homebrew.
 brew update
 
+brew install git
 brew install --cask gpg-suite #needed to sign github commits
+brew install --cask sublime-text
 brew tap AdoptOpenJDK/openjdk
 brew install --cask adoptopenjdk11 #needed for JVM languages
 brew install --cask visual-studio-code #general language IDE

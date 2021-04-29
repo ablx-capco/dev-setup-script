@@ -39,7 +39,7 @@ If you wish to not install a tool then just comment the line with #
 ```
 
 ## Setup Issues
-The script may have to be re-run after permissions are granted for various applications such as virtualbox
+The script may have to be re-run after permissions are granted for various applications such as VirtualBox
 
 If script fails at virtualbox install allow the software in the security and privacy settings:
 

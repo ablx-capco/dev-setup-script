@@ -32,8 +32,10 @@ Script will install the following tools / dependencies
 
 ## Running the script
 
-Note: xcode-command-line tools must be installed for homebrew installation 
-
+Note: xcode-command-line tools must be installed for homebrew installation - should be installed automatically however manual steps are below:
+```
+xcode-select --install
+```
 Manual download can be found here:
 https://developer.apple.com/download/more/
 

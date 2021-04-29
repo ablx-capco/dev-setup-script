@@ -33,6 +33,8 @@ Script will install the following tools / dependencies
 ## Running the script
 
 Note: xcode-command-line tools must be installed for homebrew installation
+Manual download can be found here:
+https://developer.apple.com/download/more/
 
 The script can be ran with 
 ```

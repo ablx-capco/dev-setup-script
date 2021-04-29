@@ -18,26 +18,32 @@ fi
 # Make sure we’re using the latest Homebrew.
 brew update
 
+# IDE / Development Tools
 brew install git
-brew install --cask gpg-suite #needed to sign github commits
-brew tap AdoptOpenJDK/openjdk #adding source for jdk
-brew install --cask adoptopenjdk11 # needed for JVM languages
 brew install --cask visual-studio-code # general language IDE
 brew install --cask intellij-idea-ce # JVM based IDE
+brew tap AdoptOpenJDK/openjdk #adding source for jdk
+brew install --cask adoptopenjdk11 # needed for JVM languages
+brew install node # javascript runtime
+brew install python@3.9 # scripting language - v2 included with mac however v3 reccomended
 brew install gradle # build automation tool 
 brew install maven # build automation tool
-brew install node # javascript runtime
+
+# Devops Tools
 brew install --cask docker # containerisation tool
-brew install python@3.9 # scripting language - v2 included with mac however v3 reccomended
 brew install --cask google-cloud-sdk # google cloud sdk
 brew install kubectl # K8S command line interface
 brew install hashicorp/tap/terraform # terraform for infrastructure provisioning
 brew install hashicorp/tap/packer # packer for building VM images
-brew install nginx # HTTP server + reverse proxy
-brew install --cask virtualbox # hypervisor for virtualization prerequisite for vagrant
-brew install --cask vagrant # management of VMs
 
+# Text editing tools
 brew install --cask sublime-text # text editing tool
 brew install --cask atom # alternative text editing tool
+
+# Misc tools
+brew install --cask gpg-suite #needed to sign github commits
+brew install --cask virtualbox # hypervisor for virtualization - prerequisite for vagrant
+brew install --cask vagrant # management of VMs
+brew install nginx # HTTP server + reverse proxy
 
 brew cleanup

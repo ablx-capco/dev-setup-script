@@ -1,22 +1,29 @@
 # Capco developer setup script
 
-Script will install the tools / dependencies specified below:
-* CGP SUITE
-* OPENJDK 11
-* VS CODE
-* INTELLIJ IDEA COMMUNITY EDITION
-* GRADLE
-* MAVEN
-* NODE
-* DOCKER
-* PYTHON3
-* GOOGLE CLOUD SDK
-* KUBERNETES CLI
-* TERRAFORM
-* PACKER
-* VIRTUALBOX
-* VAGRANT
-* NGINX
+Script will install the tools / dependencies specified below
+
+## IDE / Development Tools
+* Vs Code
+* IntelliJ Idea Community Edition
+* OpenJdk11 
+* Node
+* Python
+* Gradle
+* Maven
+
+## Devops Tools
+* Docker
+* Google Cloud SDK
+* Kubernetes CLI
+* Terraform CLI
+
+## Misc
+* GPG Suite
+* Packer
+* VirtualBox
+* Vagrant
+* Nginx
+
 
 Note: xcode-command-line tools must be installed for homebrew installation
 

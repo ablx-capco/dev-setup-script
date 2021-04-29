@@ -17,13 +17,14 @@ Script will install the following tools / dependencies
 * Kubernetes CLI
 * Terraform CLI
 
-## Misc
+## Misc tools
 * GPG Suite
 * Packer
 * VirtualBox
 * Vagrant
 * Nginx
 
+## Running the script
 
 Note: xcode-command-line tools must be installed for homebrew installation
 

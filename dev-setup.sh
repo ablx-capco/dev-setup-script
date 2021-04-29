@@ -32,8 +32,8 @@ brew install --cask google-cloud-sdk #google cloud sdk
 brew install kubectl #K8S command line interface
 brew install hashicorp/tap/terraform # terraform for infrastructure provisioning
 brew install hashicorp/tap/packer # packer for building VM images
+brew install nginx #HTTP server + reverse proxy
 brew install --cask virtualbox #hypervisor for virtualization prerequisite for vagrant
 brew install --cask vagrant #management of VMs
-brew install nginx #HTTP server + reverse proxy
 
 brew cleanup

@@ -18,8 +18,8 @@ Script will install the following tools / dependencies
 * Terraform CLI
 
 ## Text editing tools
-Sublime text
-Atom
+* Sublime text
+* Atom
 
 ## Misc tools
 * GPG Suite

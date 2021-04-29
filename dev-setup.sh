@@ -19,7 +19,8 @@ fi
 brew update
 
 brew install --cask gpg-suite #needed to sign github commits
-brew install openjdk@11 #needed for JVM languages
+brew tap AdoptOpenJDK/openjdk
+brew install --cask adoptopenjdk11 #needed for JVM languages
 brew install --cask visual-studio-code #general language IDE
 brew install --cask intellij-idea-ce #JVM based IDE
 brew install gradle #build automation tool 

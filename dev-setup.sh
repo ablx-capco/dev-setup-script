@@ -24,7 +24,7 @@ brew install --cask visual-studio-code # general language IDE
 brew install --cask intellij-idea-ce # JVM based IDE
 brew tap AdoptOpenJDK/openjdk #adding source for jdk
 brew install --cask adoptopenjdk11 # needed for JVM languages
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 nvm install node # javascript runtime
 brew install python@3.9 # scripting language - v2 included with mac however v3 reccomended
 brew install gradle # build automation tool 

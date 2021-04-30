@@ -41,9 +41,9 @@ brew install --cask sublime-text # text editing tool
 brew install --cask atom # alternative text editing tool
 
 # Misc tools
-brew install --cask gpg-suite #needed to sign github commits
+brew install --cask gpg-suite # needed to sign github commits
+brew install nginx # HTTP server + reverse proxy
 brew install --cask virtualbox # hypervisor for virtualization - prerequisite for vagrant
 brew install --cask vagrant # management of VMs
-brew install nginx # HTTP server + reverse proxy
 
 brew cleanup

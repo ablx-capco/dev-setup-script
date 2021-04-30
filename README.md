@@ -49,6 +49,20 @@ If you wish to not install a tool then just comment the line with #
 # brew install kubectl #K8S command line interface
 ```
 
+## Manual Steps
+Google Cloud SDK may require the following steps to be accessible from terminal:
+```
+    for bash users
+     source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc"
+     source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc"
+
+    for zsh users
+     source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+     source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
+```
+
+
 ## Setup Issues
 The script may have to be re-run after permissions are granted for various applications such as VirtualBox
 

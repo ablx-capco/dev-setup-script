@@ -25,10 +25,9 @@ Script will install the following tools / dependencies
 
 ## Misc tools
 * GPG Suite
-
+* Nginx
 * VirtualBox
 * Vagrant
-* Nginx
 
 ## Running the script
 
@@ -50,7 +49,7 @@ If you wish to not install a tool then just comment the line with #
 ```
 
 ## Manual Steps
-Google Cloud SDK may require the following steps to be accessible from terminal:
+Google Cloud SDK may require you to run the following commands in terminal to use gcloud in terminal:
 ```
     for bash users
      source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc"
@@ -59,9 +58,12 @@ Google Cloud SDK may require the following steps to be accessible from terminal:
     for zsh users
      source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
      source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
-
 ```
-
+After you have ran those commands you should be able to run
+```
+gcloud -v
+```
+This should now bring back a version number
 
 ## Setup Issues
 The script may have to be re-run after permissions are granted for various applications such as VirtualBox

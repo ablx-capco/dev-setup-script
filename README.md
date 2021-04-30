@@ -20,8 +20,8 @@ Script will install the following tools / dependencies
 * Packer
 
 ## Text editing tools
-* Sublime text
 * Atom
+* Sublime text
 
 ## Misc tools
 * GPG Suite

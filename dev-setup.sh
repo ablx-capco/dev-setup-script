@@ -37,8 +37,8 @@ brew install hashicorp/tap/terraform # terraform for infrastructure provisioning
 brew install hashicorp/tap/packer # packer for building VM images
 
 # Text editing tools
-brew install --cask sublime-text # text editing tool
 brew install --cask atom # alternative text editing tool
+brew install --cask sublime-text # text editing tool
 
 # Misc tools
 brew install --cask gpg-suite # needed to sign github commits
